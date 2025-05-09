@@ -5,6 +5,252 @@
 	(uuid "6c1d3763-2383-4474-8c26-e0b12ac80083")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:Arduino_Nano_v3.x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -620,113 +866,6 @@
 						)
 					)
 					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1554,9 +1693,149 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 110.49 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c661d4d-6a7c-469d-adf5-2db485fa69c9")
+	)
+	(junction
+		(at 209.55 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b842062-ba60-459e-9603-2e59f97cde8e")
+	)
+	(junction
+		(at 151.13 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e978ed2-7daf-44f2-9bbb-bd49eb337353")
+	)
+	(junction
+		(at 113.03 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a703688-d3df-4be0-95c7-61a5c1a7e9d6")
+	)
+	(junction
+		(at 162.56 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ffb6dce-6f22-406e-bee5-87dba7ac1e09")
+	)
+	(junction
+		(at 80.01 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f094b5-3482-4959-8af0-c01b956bc82a")
+	)
+	(junction
+		(at 26.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49e30e9a-420b-49ab-8eeb-d9bbc2741738")
+	)
+	(junction
+		(at 195.58 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de7f27f-0dfc-44d4-a325-5ee654e1fcf3")
+	)
+	(junction
+		(at 82.55 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5698b8ef-f2f0-48d8-9964-5c5a1d0639a3")
+	)
+	(junction
+		(at 153.67 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6353b441-b867-4fb9-8552-bf4b5f13805c")
+	)
+	(junction
+		(at 124.46 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "680d24c1-abf2-458a-af16-40f51ca97d86")
+	)
+	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ee204d7-74a5-45e9-b8c4-4badd07d2900")
+	)
+	(junction
+		(at 165.1 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5066ed6-fc6f-4b1f-824b-5e707fa1b38d")
+	)
+	(junction
+		(at 29.21 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7a59123-0a03-46f8-a28a-dfd156866641")
+	)
+	(junction
+		(at 40.64 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be730d20-6ec6-41b1-9f67-108a5cabd9f9")
+	)
+	(junction
+		(at 207.01 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c31e681a-8e68-468c-9580-81e9471e8b95")
+	)
+	(junction
+		(at 121.92 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd0dfa5b-df12-4d7e-a98d-8ad20cf2fa8f")
+	)
+	(junction
+		(at 38.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0619892-f3f8-4001-960f-044e281fda49")
+	)
+	(junction
+		(at 71.12 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c5714f-afce-4905-a6b5-78e1699cd6bf")
+	)
+	(junction
+		(at 198.12 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f713965a-bdf9-4029-ba16-fc5c98dad265")
+	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 153.67 86.36)
+			(xy 165.1 30.48) (xy 171.45 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0092cbd9-0514-45e8-b4cf-b2e8bc7d3e44")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03abfcd6-f78c-48c2-924d-bd47585fc5da")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 115.57 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 133.35) (xy 144.78 133.35)
+			(xy 168.91 176.53) (xy 119.38 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1576,27 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 69.85 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06877f2f-7544-4c69-9089-3d799c2d88cb")
-	)
-	(wire
-		(pts
-			(xy 134.62 119.38) (xy 128.27 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07fe791d-d2aa-40c7-bdde-2039babe948f")
-	)
-	(wire
-		(pts
-			(xy 194.31 107.95) (xy 194.31 133.35)
+			(xy 168.91 151.13) (xy 168.91 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1606,17 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 119.38) (xy 99.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a828f68-e3ec-4746-b050-733afde0e108")
-	)
-	(wire
-		(pts
-			(xy 190.5 102.87) (xy 201.93 102.87)
+			(xy 165.1 146.05) (xy 176.53 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 119.38) (xy 166.37 125.73)
+			(xy 140.97 162.56) (xy 140.97 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1885,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 133.35) (xy 144.78 99.06)
+			(xy 151.13 80.01) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161b342b-3713-45a5-8b5b-0cab4bc29148")
+	)
+	(wire
+		(pts
+			(xy 119.38 176.53) (xy 119.38 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 146.05 132.08)
+			(xy 120.65 154.94) (xy 120.65 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1656,7 +1915,67 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 125.73) (xy 214.63 125.73)
+			(xy 151.13 76.2) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aec77f3-a6ee-4d28-a44a-b30f56d30f90")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 40.64 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca704c3-59e0-4307-9c0c-01c1f5a13842")
+	)
+	(wire
+		(pts
+			(xy 207.01 68.58) (xy 213.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23189c82-12dc-4945-a775-37fd51dfb922")
+	)
+	(wire
+		(pts
+			(xy 78.74 29.21) (xy 82.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c59240-4f56-4864-852b-bed016b29ec4")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 80.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2712d5e5-5e1e-4d1e-9b4d-db8cde49d22d")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 71.12 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e7315d-241c-4d64-b13e-2445f35c1012")
+	)
+	(wire
+		(pts
+			(xy 140.97 168.91) (xy 189.23 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 67.31) (xy 158.75 48.26)
+			(xy 133.35 110.49) (xy 133.35 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1676,7 +1995,37 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 128.27) (xy 190.5 102.87)
+			(xy 151.13 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c497c1a-9253-42e1-9354-7a10b5705e32")
+	)
+	(wire
+		(pts
+			(xy 209.55 30.48) (xy 215.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc5fd9a-3225-40cf-9faf-a32d83862b33")
+	)
+	(wire
+		(pts
+			(xy 269.24 39.37) (xy 269.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe2cca5-025a-413d-80a3-b049ddaec01a")
+	)
+	(wire
+		(pts
+			(xy 165.1 171.45) (xy 165.1 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1686,17 +2035,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 83.82) (xy 69.85 83.82)
+			(xy 121.92 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "340cf694-9fb4-4353-99ce-6d789f420411")
+		(uuid "33d1851c-4ae0-4ea8-9454-565ad41ef6c5")
 	)
 	(wire
 		(pts
-			(xy 201.93 113.03) (xy 196.85 113.03)
+			(xy 176.53 156.21) (xy 171.45 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1706,17 +2055,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 153.67) (xy 99.06 153.67)
+			(xy 153.67 38.1) (xy 165.1 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e940c1c-2e2b-4ac2-9d78-0c968f25a53d")
+		(uuid "41b207b3-cdec-424e-a4d2-2f32c5f1e829")
 	)
 	(wire
 		(pts
-			(xy 214.63 92.71) (xy 214.63 63.5)
+			(xy 26.67 74.93) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440ea63b-eeaf-4b2b-bf2d-6ba3d49b978e")
+	)
+	(wire
+		(pts
+			(xy 189.23 135.89) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1726,7 +2085,37 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 109.22) (xy 151.13 109.22)
+			(xy 71.12 36.83) (xy 71.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b165535-ad80-40b7-bbfa-a44948a12686")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b328d50-fcb3-4a01-bc61-809bd8b05df3")
+	)
+	(wire
+		(pts
+			(xy 123.19 129.54) (xy 128.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b65019e-9d08-4b62-a292-688782e6d3c1")
+	)
+	(wire
+		(pts
+			(xy 128.27 152.4) (xy 125.73 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1736,17 +2125,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 69.85 119.38)
+			(xy 29.21 36.83) (xy 29.21 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e0ead20-b2d4-43c8-9d89-cc706e5b362b")
+		(uuid "4bffd3c2-2e33-4fd0-a9c4-19e7968cc0ef")
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 201.93 105.41)
+			(xy 167.64 148.59) (xy 176.53 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 153.67 91.44)
+			(xy 110.49 134.62) (xy 115.57 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1766,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 168.91 68.58)
+			(xy 143.51 106.68) (xy 143.51 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1776,17 +2165,177 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 153.67) (xy 69.85 153.67)
+			(xy 26.67 78.74) (xy 26.67 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "964871c2-e13b-4a54-a13e-d74a7c8ccfe7")
+		(uuid "54fdefc6-1dae-48cb-b1c1-bd6006b88600")
 	)
 	(wire
 		(pts
-			(xy 201.93 100.33) (xy 182.88 100.33)
+			(xy 195.58 76.2) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560178e4-19a9-41ba-9154-2a946b5beb12")
+	)
+	(wire
+		(pts
+			(xy 34.29 67.31) (xy 38.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a41ff6c-ce69-4579-b56a-ab2d1071360f")
+	)
+	(wire
+		(pts
+			(xy 124.46 30.48) (xy 130.81 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abf0df5-c029-44f8-aca2-7889704ae62a")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cca701d-722a-40ee-86eb-48aaa3adebd3")
+	)
+	(wire
+		(pts
+			(xy 38.1 67.31) (xy 44.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db0200c-8504-455e-8dde-cdd8ce1cf3e7")
+	)
+	(wire
+		(pts
+			(xy 123.19 134.62) (xy 128.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcca72a-52a7-4b80-b510-1cdbae6ce9e4")
+	)
+	(wire
+		(pts
+			(xy 29.21 40.64) (xy 29.21 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6014dde2-220d-4f47-8329-861d6d36e036")
+	)
+	(wire
+		(pts
+			(xy 40.64 29.21) (xy 46.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6749bc96-7fc5-4014-8cca-1b57e3a410e4")
+	)
+	(wire
+		(pts
+			(xy 113.03 38.1) (xy 113.03 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684867a1-319b-4cc8-bd26-eb35952c1fc5")
+	)
+	(wire
+		(pts
+			(xy 26.67 74.93) (xy 26.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fb0ff1-3ece-45fc-b317-2849839e5e35")
+	)
+	(wire
+		(pts
+			(xy 120.65 30.48) (xy 124.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afaab4e-9b9e-4a7b-b59e-8c443480384b")
+	)
+	(wire
+		(pts
+			(xy 76.2 67.31) (xy 80.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811b2948-03f1-42a7-b304-3951e0952957")
+	)
+	(wire
+		(pts
+			(xy 198.12 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84164c73-bf9c-46be-ab7e-91e74febb4c4")
+	)
+	(wire
+		(pts
+			(xy 118.11 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ea1835-d53b-4b89-bdf2-7abeddd2c730")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939d53fe-eac2-4dc0-81bc-44f5207a2984")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 153.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978a1945-ca76-470e-a58d-09adfdbcc05b")
+	)
+	(wire
+		(pts
+			(xy 176.53 143.51) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1796,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 168.91 63.5)
+			(xy 189.23 106.68) (xy 143.51 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +2355,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 106.68) (xy 153.67 106.68)
+			(xy 124.46 149.86) (xy 128.27 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1816,7 +2365,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 153.67 99.06)
+			(xy 80.01 67.31) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60778ac-36e0-4aea-8da5-36fe986730da")
+	)
+	(wire
+		(pts
+			(xy 119.38 142.24) (xy 128.27 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +2385,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 111.76) (xy 146.05 111.76)
+			(xy 198.12 41.91) (xy 198.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9137186-8731-4b87-907d-b9c250c29c0b")
+	)
+	(wire
+		(pts
+			(xy 128.27 154.94) (xy 120.65 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1836,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 168.91 138.43)
+			(xy 143.51 162.56) (xy 143.51 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +2415,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 132.08) (xy 193.04 105.41)
+			(xy 110.49 76.2) (xy 110.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0174c22-9e06-4064-bacc-ea471faf754d")
+	)
+	(wire
+		(pts
+			(xy 167.64 175.26) (xy 167.64 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1856,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 151.13 128.27)
+			(xy 125.73 152.4) (xy 125.73 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1866,7 +2445,37 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 113.03) (xy 196.85 135.89)
+			(xy 158.75 68.58) (xy 162.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7daa259-83f6-4503-a76e-9f4232e58cef")
+	)
+	(wire
+		(pts
+			(xy 113.03 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8dcc985-47ec-46ba-bf47-8dceee21251d")
+	)
+	(wire
+		(pts
+			(xy 203.2 68.58) (xy 207.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac06aee-8838-4da5-ad4a-58a066cb6b7b")
+	)
+	(wire
+		(pts
+			(xy 171.45 156.21) (xy 171.45 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1876,7 +2485,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 106.68) (xy 149.86 129.54)
+			(xy 71.12 36.83) (xy 82.55 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb2979a-8bc4-430c-98d1-8e0527e3e01f")
+	)
+	(wire
+		(pts
+			(xy 124.46 149.86) (xy 124.46 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1886,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 123.19) (xy 214.63 125.73)
+			(xy 189.23 166.37) (xy 189.23 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1896,7 +2515,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 96.52) (xy 153.67 96.52)
+			(xy 153.67 38.1) (xy 153.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c087940f-91cf-4f02-bad8-3b1db0cf7092")
+	)
+	(wire
+		(pts
+			(xy 118.11 139.7) (xy 128.27 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 135.89) (xy 143.51 96.52)
+			(xy 118.11 179.07) (xy 118.11 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1916,17 +2545,47 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 52.07) (xy 128.27 52.07)
+			(xy 195.58 80.01) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d34eeb53-df3e-4238-bb1e-4eb1a74911b1")
+		(uuid "c8f7e961-b7dc-4e28-a9ad-0232ac757a87")
 	)
 	(wire
 		(pts
-			(xy 146.05 132.08) (xy 193.04 132.08)
+			(xy 195.58 76.2) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd5b3c4-b421-4656-ad22-088c2376c957")
+	)
+	(wire
+		(pts
+			(xy 205.74 30.48) (xy 209.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bd558b-7995-449c-b78f-1ef7b28ece2c")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 68.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f7b14e-88b3-468e-b73d-3d3a39cbe87b")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 167.64 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1936,17 +2595,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 55.88) (xy 62.23 58.42)
+			(xy 113.03 41.91) (xy 113.03 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d90d9035-1a83-4b7a-a891-d77abf5d48d8")
+		(uuid "d3befd8e-2c1a-497c-a80f-500d8fa0ae8c")
 	)
 	(wire
 		(pts
-			(xy 201.93 107.95) (xy 194.31 107.95)
+			(xy 176.53 151.13) (xy 168.91 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1956,7 +2615,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 135.89) (xy 143.51 135.89)
+			(xy 29.21 36.83) (xy 40.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58ec8f0-faae-4558-bcd2-b09e2524ba2d")
+	)
+	(wire
+		(pts
+			(xy 171.45 179.07) (xy 118.11 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1966,17 +2635,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 99.06 50.8)
+			(xy 161.29 30.48) (xy 165.1 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eea5c74f-2ed4-45a7-adae-20dd2849c367")
+		(uuid "f1d3db50-6051-4416-95e2-5e0abfd91faf")
 	)
 	(wire
 		(pts
-			(xy 182.88 100.33) (xy 182.88 129.54)
+			(xy 157.48 143.51) (xy 157.48 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +2655,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 129.54) (xy 149.86 129.54)
+			(xy 157.48 172.72) (xy 124.46 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 67.31) (xy 158.75 67.31)
+			(xy 138.43 110.49) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2006,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 128.27) (xy 190.5 128.27)
+			(xy 125.73 171.45) (xy 165.1 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2016,17 +2685,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 83.82) (xy 99.06 83.82)
+			(xy 198.12 38.1) (xy 198.12 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc67e8de-8f39-446c-b522-a2e364b66dac")
+		(uuid "f8102de9-ff60-47ab-b0f9-b0dbec0d83bd")
 	)
 	(wire
 		(pts
-			(xy 163.83 67.31) (xy 163.83 68.58)
+			(xy 82.55 29.21) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcda314d-39d8-4750-9fb2-2b0a3a3a863e")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 138.43 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2034,109 +2713,9 @@
 		)
 		(uuid "fd471b14-e8a3-4110-adbc-62c57c50e53d")
 	)
-	(label "pwm1"
-		(at 76.2 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a79b5ab-a84d-44e4-9d3d-d85fc374a0a7")
-	)
-	(label "pwm1"
-		(at 105.41 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35bcfb3e-0cf4-4dc4-9bc1-3ca044abdbc5")
-	)
-	(label "pwm2"
-		(at 76.2 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d317c26-d1c4-4acc-be64-79e94be31b01")
-	)
-	(label "pwm2"
-		(at 105.41 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "402317ed-52ae-4723-830e-899e3c6252f0")
-	)
-	(label "pwm1"
-		(at 76.2 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40d9cb07-0644-40d1-a933-58ecbf20b3ea")
-	)
-	(label "pwm2"
-		(at 134.62 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9181a95-06ff-4995-90ce-26c1ed45aec6")
-	)
-	(label "pwm1"
-		(at 134.62 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6306579-1145-4063-a030-c186c165d85d")
-	)
-	(label "pwm2"
-		(at 76.2 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "caf6b069-f570-43b6-8d9b-7a482894d35a")
-	)
-	(label "pwm2"
-		(at 105.41 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f447dfd3-1f05-4f8a-b950-3a2f90fe1c19")
-	)
-	(label "pwm1"
-		(at 105.41 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7cf282b-4012-4e76-95e9-72f1b05e34e1")
-	)
 	(global_label "GND_transformer"
 		(shape output)
-		(at 38.1 29.21 270)
+		(at 245.11 27.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2146,29 +2725,7 @@
 		)
 		(uuid "0100f4f5-30a4-4725-bba8-683375dc4222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 48.1003 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "pwm2"
-		(shape output)
-		(at 135.89 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b34303e-7141-4bc2-a9d7-c02336d7fdb4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5225 91.44 0)
+			(at 245.11 46.8303 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,8 +2736,250 @@
 		)
 	)
 	(global_label "pwm1"
+		(shape input)
+		(at 88.9 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21a560ea-1b27-4c5c-8542-1d17635f293c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.2675 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm2"
+		(shape input)
+		(at 168.91 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2889222b-74a9-4601-bf27-e745a22f71e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.2775 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm2"
+		(shape input)
+		(at 44.45 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a8cf2f8-9168-4dc8-b901-1c3d5ea46765")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.8175 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm2"
 		(shape output)
-		(at 135.89 86.36 180)
+		(at 110.49 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b34303e-7141-4bc2-a9d7-c02336d7fdb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1225 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm1"
+		(shape input)
+		(at 46.99 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a984fed-34e8-44c6-bc51-fdd443fa7ccb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.3575 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm1"
+		(shape input)
+		(at 215.9 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e65ff41-6b2b-4ea8-bfea-88e1cd97a937")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.2675 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm1"
+		(shape input)
+		(at 130.81 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e42f431-f205-422a-bb1d-e733f1d615c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.1775 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm1"
+		(shape input)
+		(at 171.45 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66ede96d-36fb-4034-b50a-dc98ec8dd984")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.8175 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm2"
+		(shape input)
+		(at 213.36 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e591db9-7049-4285-9f10-cb4428a217e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.7275 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm2"
+		(shape input)
+		(at 86.36 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84d98a85-5318-4614-8aa2-fce98b074351")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.7275 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm2"
+		(shape input)
+		(at 128.27 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4a65ee6-7a38-493c-8c64-0c7617c17005")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.6375 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pwm1"
+		(shape output)
+		(at 110.49 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2190,7 +2989,7 @@
 		)
 		(uuid "d3e58976-2543-4c24-b10a-6d36695ef568")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5225 86.36 0)
+			(at 102.1225 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,214 +3000,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 120.65 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "135e6812-0c5c-4530-afdd-7494a1f9c53c")
-		(property "Reference" "Vout_led1_3"
-			(at 120.142 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 118.11 59.6901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 120.65 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 120.65 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05bd97c0-95bd-4197-b555-4649aa85f37b")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led1_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 161.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1994ac30-3154-4552-b02e-67a73d9efb81")
-		(property "Reference" "Vout_led2_5"
-			(at 90.932 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 88.9 161.2901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 91.44 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 91.44 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ac1cc29-f9fe-436a-bdb1-7aa6be7a4dc5")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led2_5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a5fa936-21b7-4b01-8b78-27d87badcaeb")
-		(property "Reference" "Vout_led2_1"
-			(at 61.722 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 59.69 127.0001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 62.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2381a2e3-4d2e-450c-9392-ae00c70d5be3")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led2_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
-		(at 93.98 153.67 180)
+		(at 156.21 30.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1e644c65-62f0-4805-8916-ec8cf9452503")
-		(property "Reference" "NPN2_5"
-			(at 87.63 154.9401 0)
+		(uuid "0022689a-162a-4953-81f1-8a17001a05b0")
+		(property "Reference" "NPN1_5"
+			(at 149.86 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +3019,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 87.63 152.4001 0)
+			(at 149.86 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +3028,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 88.9 151.765 0)
+			(at 151.13 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +3039,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 88.9 149.86 0)
+			(at 151.13 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +3049,7 @@
 			)
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 93.98 153.67 0)
+			(at 156.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,36 +3057,112 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "043e3b45-a6ed-4aa1-9391-9e3b6ebe9976")
-		)
 		(pin "1"
-			(uuid "90360dc9-994d-4707-b5fd-57c5bd76d9fc")
+			(uuid "673165f2-0c8b-4cd6-a5bd-ed0ad3984c18")
 		)
 		(pin "2"
-			(uuid "4157bc10-f724-4172-b185-baa0677f4a5a")
+			(uuid "8352c15a-264d-4b51-9325-a3b849ca13e2")
+		)
+		(pin "3"
+			(uuid "d92777f7-1117-472a-b4df-ad36c904fac5")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN2_5")
+					(reference "NPN1_5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 153.67 172.72 0)
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 31.75 29.21 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01c19e9c-826e-413d-85a9-0ce466d850cf")
+		(property "Reference" "NPN1_2"
+			(at 25.4 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 25.4 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 26.67 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 26.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 31.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552bd7e0-41e4-42fe-9506-00a22a1ccc3e")
+		)
+		(pin "2"
+			(uuid "e54c98d0-d6cb-45ae-9fa9-68afc7b87abf")
+		)
+		(pin "3"
+			(uuid "20c08121-b382-4a4b-90ef-262b51c0059f")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "NPN1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 151.13 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f16e53b-e96b-46d5-ae3d-dd6422373d82")
-		(property "Reference" "GND_led1_5"
-			(at 156.21 170.1799 0)
+		(uuid "02a1ca58-9353-4691-bb5a-9256172ab930")
+		(property "Reference" "V-led2_4"
+			(at 152.4 57.7849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,8 +3170,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 156.21 172.7199 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 152.4 60.3249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,8 +3179,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 153.67 172.72 0)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 151.13 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 172.72 0)
+			(at 151.13 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,8 +3197,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 153.67 172.72 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 151.13 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,29 +3207,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e944c3e-98da-463d-bd1e-43ad03b178b8")
+			(uuid "742e3024-cc90-4a99-9072-5916bd5a1e65")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_5")
+					(reference "V-led2_4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 245.11 157.48 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 269.24 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1fe35692-b251-49aa-b71e-64cc9adf5ad4")
-		(property "Reference" "#PWR018"
-			(at 245.11 163.83 0)
+		(uuid "04226659-c8ca-4f5f-9b33-82a63d85ee95")
+		(property "Reference" "V+_transformer1"
+			(at 270.51 22.2249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 270.51 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 269.24 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,8 +3255,343 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_transformer"
-			(at 245.11 162.56 0)
+		(property "Datasheet" "~"
+			(at 269.24 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91815d4d-df15-434e-a0d2-f4ce56db4f74")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+_transformer1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 29.21 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06047019-f5f2-4d0c-8973-b84c7660c040")
+		(property "Reference" "NPN2_1"
+			(at 22.86 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 22.86 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 24.13 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 24.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e05f4b3-8e1a-4fa8-a99d-4733654074c4")
+		)
+		(pin "2"
+			(uuid "4e598e1a-23c7-4dc1-b025-8458d4b8fdde")
+		)
+		(pin "3"
+			(uuid "d85e3fcf-073d-4286-b6ba-69fa7aefb8e4")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "NPN2_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06f6dc3f-d213-422f-a6f2-6ace4467ae74")
+		(property "Reference" "R3"
+			(at 119.38 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 119.38 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 119.38 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48a83494-a971-4059-8bc1-e79cb26142ef")
+		)
+		(pin "1"
+			(uuid "01066357-e3d7-4aa6-88a8-6837b631e99f")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 143.51 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09013dae-ce26-44c4-9dd0-2d701dbf2299")
+		(property "Reference" "GND_arduino1"
+			(at 144.78 184.7849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 144.78 187.3249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 143.51 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 143.51 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17956417-7464-47ea-b2a4-103b835d5fd0")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "GND_arduino1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 200.66 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a0f0593-280d-4506-b7d6-4d01629eb4a1")
+		(property "Reference" "NPN1_3"
+			(at 194.31 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 194.31 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 195.58 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 200.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be8ab4b1-777e-4f00-8054-992eac3ae4f4")
+		)
+		(pin "2"
+			(uuid "a9fe9d2b-bf51-4647-b458-8c0287e3f725")
+		)
+		(pin "3"
+			(uuid "6913dd34-f780-48dd-b508-79e6f5f7fa14")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "NPN1_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 53.34 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e731a8-30cf-4a40-bff7-af39f964cfd2")
+		(property "Reference" "#PWR09"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 53.34 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +3599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 157.48 0)
+			(at 53.34 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +3608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 157.48 0)
+			(at 53.34 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,8 +3616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 53.34 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,12 +3626,145 @@
 			)
 		)
 		(pin "1"
-			(uuid "85d21597-7911-4058-b82b-5e2872a34a90")
+			(uuid "a1866551-70a7-42a3-814b-8eb35f479172")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR018")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 71.12 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2678ce-9cbc-49bc-83c8-ee0787a34cee")
+		(property "Reference" "V+led2_3"
+			(at 72.39 158.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 72.39 160.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 71.12 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b03e4e5e-1bfa-47ae-b3ce-3869e0d3cf27")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+led2_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 25.4 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2244a0ef-7e4d-4b6a-abf2-ffcda6165bfe")
+		(property "Reference" "#PWR06"
+			(at 25.4 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 25.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ccde334-c867-4f9a-addd-c168c23c8a6c")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2608,7 +3772,7 @@
 	)
 	(symbol
 		(lib_id "RF:NRF24L01_Breakout")
-		(at 214.63 107.95 0)
+		(at 189.23 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2617,7 +3781,7 @@
 		(fields_autoplaced yes)
 		(uuid "22ad61ee-2c68-4bd6-b0b1-fe55a603e479")
 		(property "Reference" "U1"
-			(at 224.79 106.6799 0)
+			(at 199.39 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +3790,7 @@
 			)
 		)
 		(property "Value" "NRF24L01_Breakout"
-			(at 224.79 109.2199 0)
+			(at 199.39 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +3799,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:nRF24L01_Breakout"
-			(at 218.44 92.71 0)
+			(at 193.04 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +3810,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf"
-			(at 214.63 110.49 0)
+			(at 189.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +3819,7 @@
 			)
 		)
 		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
-			(at 214.63 107.95 0)
+			(at 189.23 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,16 +3862,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 142.24 0)
+		(at 198.12 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22cae682-494c-4e20-8dea-b11ef4a9917a")
-		(property "Reference" "#PWR019"
-			(at 215.9 148.59 0)
+		(uuid "29721f77-2328-438c-85e9-36bf733214e8")
+		(property "Reference" "#PWR024"
+			(at 198.12 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +3880,7 @@
 			)
 		)
 		(property "Value" "GND_transformer"
-			(at 215.9 147.32 0)
+			(at 198.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +3888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 142.24 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +3897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 142.24 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +3906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 142.24 0)
+			(at 198.12 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,427 +3915,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "55419dfb-58e1-4dc4-889e-063628c8d591")
+			(uuid "899a45bb-4933-4e02-8732-7a7ea4ee9b04")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 128.27 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b2fcd65-9356-4404-8d96-a539c40a1410")
-		(property "Reference" "GND_led1_4"
-			(at 130.81 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 130.81 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 128.27 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 128.27 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c24806d9-2678-4900-a048-1f18c5a66538")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "313b8421-9b50-4fdf-8ebf-28ae99fb8e62")
-		(property "Reference" "#PWR012"
-			(at 128.27 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_transformer"
-			(at 128.27 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eddc574d-5c06-413a-aa99-25206dcc2ef9")
-		)
-		(instances
-			(project ""
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 64.77 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39628b34-096b-4dfe-95d5-a7a242f450a6")
-		(property "Reference" "NPN1_4"
-			(at 58.42 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 58.42 82.5501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 59.69 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 64.77 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fab70e14-8189-46e7-b40a-95d57b40f26c")
-		)
-		(pin "1"
-			(uuid "1bc4b457-03b1-4894-a60d-48f0bd079294")
-		)
-		(pin "2"
-			(uuid "69ba9132-e6eb-46ca-aa58-79bc0a558d10")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN1_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "40a703e9-ce27-42f6-b658-fa765adfde74")
-		(property "Reference" "Vout_led1_5"
-			(at 90.932 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 88.9 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b4ed144-baeb-49d9-8542-7abcd25373ef")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led1_5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 123.19 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4155d933-b84c-4b5a-ac8c-3d7b07eb56ef")
-		(property "Reference" "NPN1_3"
-			(at 116.84 53.3401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 116.84 50.8001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 118.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 118.11 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 123.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e1b55da7-4d51-4417-93bf-3da7cf923c26")
-		)
-		(pin "1"
-			(uuid "8c686d4a-8dd1-4a11-b62c-765c0d61bede")
-		)
-		(pin "2"
-			(uuid "954fafff-68da-44d7-ab8e-1fa703a183b1")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN1_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 120.65 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "49c88519-c511-4c31-8b55-23ddc08fd128")
-		(property "Reference" "Vout_led2_3"
-			(at 120.142 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 118.11 127.0001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 120.65 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 120.65 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b6b0ba9-5259-4b27-8085-6495c0f4bf3b")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led2_3")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3179,16 +3928,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 62.23 29.21 180)
+		(at 53.34 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a31539c-613a-4ff9-96ae-f114f728a67f")
-		(property "Reference" "#PWR011"
-			(at 62.23 25.4 0)
+		(uuid "313bb1cd-a8ce-4e1f-977b-1174c9ebd0c1")
+		(property "Reference" "#PWR05"
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3946,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 62.23 34.29 0)
+			(at 53.34 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 29.21 0)
+			(at 53.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 29.21 0)
+			(at 53.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3972,345 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 29.21 0)
+			(at 53.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70967784-8721-42d7-b6e7-9022e2b821f5")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 113.03 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bf94b49-f7ea-46e8-9deb-49287cbf7832")
+		(property "Reference" "V-led1_4"
+			(at 114.3 19.6849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 114.3 22.2249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 113.03 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 113.03 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2ceea7a-1cfa-4425-a8f5-74fa95927e35")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-led1_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca0ad74-86f8-4675-9361-41b30d3d2f6b")
+		(property "Reference" "PullDown2_3"
+			(at 124.46 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 120.142 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f838a81-de67-4bb2-a7d0-6a62b121ea6c")
+		)
+		(pin "2"
+			(uuid "71d8b93e-d63e-4a1a-bcf7-750d7e9da8d2")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown2_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f4bb0c0-5b34-4890-9f69-97448a1b2893")
+		(property "Reference" "R2"
+			(at 119.38 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 119.38 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 119.38 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69d9e8c6-ab65-4616-bd22-e1e5b6658fac")
+		)
+		(pin "1"
+			(uuid "2955c41b-c2e0-4f40-be7a-23fbfb62ef52")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46c1c173-7e04-42d1-951a-cbd9587acd02")
+		(property "Reference" "V-led1_2"
+			(at 30.48 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 30.48 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 29.21 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "709b1143-0be9-4d7a-bb22-714d675f5364")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-led1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 269.24 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a31539c-613a-4ff9-96ae-f114f728a67f")
+		(property "Reference" "#PWR011"
+			(at 269.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 269.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 269.24 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,977 +4331,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 93.98 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dbc2321-9b96-4d83-8c6c-04ca3feb0385")
-		(property "Reference" "NPN2_2"
-			(at 87.63 120.6501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 87.63 118.1101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 88.9 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 88.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 93.98 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c22118d9-ed74-4cdf-adad-5d1d731fe8fb")
-		)
-		(pin "1"
-			(uuid "89fbff68-d7ab-45e4-9a7b-95f32e35aacc")
-		)
-		(pin "2"
-			(uuid "17f755cb-094d-44f1-a9fc-1b53945de8a6")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN2_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dc8ed9a-000f-4786-88b7-efdc33dd296a")
-		(property "Reference" "Vout_led1_2"
-			(at 90.932 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 88.9 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 91.44 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 91.44 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fced5c1-b89f-4498-a761-040a618558d3")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led1_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 245.11 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f3f7f23-a1b6-45a4-821d-a356a1fd8b93")
-		(property "Reference" "GND_led1_7"
-			(at 247.65 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 247.65 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 245.11 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 245.11 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5d0df02-9725-4ea9-9049-232b02a60302")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 261.62 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51f6d3e2-2010-4d17-a4c3-bd79340267f0")
-		(property "Reference" "GND_led1_10"
-			(at 264.16 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 264.16 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "175331f5-fdd1-4f51-a768-9d06f8d2f319")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 240.03 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56b4908d-61fb-495a-82c9-9107602b55ff")
-		(property "Reference" "GND_led1_9"
-			(at 242.57 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 242.57 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 240.03 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 240.03 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "338e74a6-aa98-4196-b264-89bb1d138813")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "573885c2-cc22-497a-a409-92b5614c52a8")
-		(property "Reference" "#PWR014"
-			(at 184.15 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_transformer"
-			(at 184.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3b7ea91-c1ea-4ef5-ad4b-2e2fa62f2aa5")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 93.98 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59b66e22-c266-4af5-89b5-42e29dbdaa5b")
-		(property "Reference" "NPN1_5"
-			(at 87.63 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 87.63 82.5501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 88.9 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 88.9 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 93.98 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f0f11b2d-7328-43b6-8d54-179cba4d2f27")
-		)
-		(pin "1"
-			(uuid "3d884594-f7de-4e25-8df6-01231a3ed183")
-		)
-		(pin "2"
-			(uuid "7db2f866-5098-4392-a5d7-27888c87f3f4")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN1_5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 64.77 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5abc8942-bbf9-48f2-ad90-38bc2947cf84")
-		(property "Reference" "NPN2_1"
-			(at 58.42 120.6501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 58.42 118.1101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 59.69 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 59.69 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 64.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3ee5b6d5-580f-45c6-90c9-9d8e680040b6")
-		)
-		(pin "1"
-			(uuid "8a8e1151-437d-40cd-93c8-aed990071b7b")
-		)
-		(pin "2"
-			(uuid "915850cd-c71b-4061-bd20-1ed3ad38079b")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN2_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 91.44 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5afcab0a-d772-4755-a247-4f7b9ee15a52")
-		(property "Reference" "#PWR010"
-			(at 91.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 91.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67cda10e-5093-4c44-b117-58e107b8ed88")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 91.44 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b85aa33-b7a6-4d25-aa10-fce912f35a2e")
-		(property "Reference" "#PWR02"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c259ad0c-a410-451c-907f-1003d89cf96d")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 62.23 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "644c7062-547f-4585-93c8-1f625a8c6ed2")
-		(property "Reference" "#PWR09"
-			(at 62.23 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 62.23 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90664e12-52c5-4477-946d-cf7b189b0546")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 64.77 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "687f18ea-8954-49f2-80de-f87a782488f3")
-		(property "Reference" "NPN2_4"
-			(at 58.42 154.9401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ44N"
-			(at 58.42 152.4001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 59.69 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 59.69 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 64.77 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "311faee3-bca4-4fd0-8a40-9aaa7e28e351")
-		)
-		(pin "1"
-			(uuid "d91c5883-b86c-49e7-a0ba-faf1d90b7552")
-		)
-		(pin "2"
-			(uuid "671a86eb-7623-4679-b201-0f7df2a4ab5f")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN2_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 157.48 0)
+		(at 49.53 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7023df5f-3432-4f69-a97b-0ef91813c4e3")
-		(property "Reference" "#PWR013"
-			(at 156.21 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_transformer"
-			(at 156.21 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cda862c-e89a-4794-9112-9d561722551e")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 128.27 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "702cb989-a2b8-4054-97c7-21f48826db74")
-		(property "Reference" "GND_led1_1"
-			(at 130.81 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 130.81 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 128.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 128.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0394aa3-8e30-4c25-8f35-5d39d2ff5885")
-		)
-		(instances
-			(project ""
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 120.65 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8108b06f-628c-4402-afb0-c18c81e6d5c3")
+		(uuid "4b741d91-0681-4dea-a781-ad88f108d0a1")
 		(property "Reference" "#PWR08"
-			(at 120.65 118.11 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4350,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 120.65 109.22 0)
+			(at 49.53 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 114.3 0)
+			(at 49.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 114.3 0)
+			(at 49.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 120.65 114.3 0)
+			(at 49.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4385,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "18282622-4d66-4c7c-b68d-555da2d91f97")
+			(uuid "cf00d044-c1d3-4616-9db2-0791c8c52abf")
 		)
 		(instances
 			(project "receiver_battery"
@@ -4270,17 +4397,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 62.23 78.74 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 195.58 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86f18307-9c5c-467a-8e56-84bf0ed97298")
-		(property "Reference" "#PWR05"
-			(at 62.23 82.55 0)
+		(uuid "4dec24f9-6a1f-4a1d-bf18-107f15b2825f")
+		(property "Reference" "V-led2_5"
+			(at 196.85 57.7849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 196.85 60.3249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 195.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,16 +4433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 78.74 0)
+		(property "Datasheet" "~"
+			(at 195.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,82 +4442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64c9c2aa-fc61-4de1-bc58-04a324a33009")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 91.44 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87e1fa3d-c49e-40b9-98f7-a6d0f4e8f7d7")
-		(property "Reference" "#PWR07"
-			(at 91.44 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 91.44 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 114.3 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 195.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,12 +4452,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ede6a083-1ed5-4e7e-86c6-920ea9b6f882")
+			(uuid "769a8074-0933-4056-8d29-051c88390ef9")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR07")
+					(reference "V-led2_5")
 					(unit 1)
 				)
 			)
@@ -4402,15 +4465,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
-		(at 123.19 119.38 180)
+		(at 115.57 30.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "91a1b89d-6b22-4ecc-a682-c4b0f0665088")
-		(property "Reference" "NPN2_3"
-			(at 116.84 120.6501 0)
+		(uuid "50871e75-4aeb-4064-adad-bc68067bbd12")
+		(property "Reference" "NPN1_4"
+			(at 109.22 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4483,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 116.84 118.1101 0)
+			(at 109.22 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +4492,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 118.11 117.475 0)
+			(at 110.49 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4503,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 118.11 115.57 0)
+			(at 110.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4513,7 @@
 			)
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 123.19 119.38 0)
+			(at 115.57 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,368 +4521,35 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b106f3f5-b6e7-4e1f-a456-77ad52923a56")
-		)
 		(pin "1"
-			(uuid "9dc946bd-6ebc-4895-a410-6f3a029627af")
+			(uuid "db1cd80a-53db-4903-b817-b38b19d16203")
 		)
 		(pin "2"
-			(uuid "b6fd6293-e10b-4e8f-900a-dd357cd24744")
+			(uuid "735420f5-ddcd-46af-ad15-3b07c0b712d0")
+		)
+		(pin "3"
+			(uuid "cc14ab45-022b-4e6b-b9d1-876bb43e8d29")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN2_3")
+					(reference "NPN1_4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b15c2d7-9318-4535-8458-d62c24b16c8e")
-		(property "Reference" "Vout_led1_1"
-			(at 61.722 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 59.69 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "254ab765-1d74-4baa-8b0d-441babf0f6ef")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led1_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c7b9bc7-1f12-466b-9b76-cf8b0802457e")
-		(property "Reference" "Vout_led1_4"
-			(at 61.722 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 59.69 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 62.23 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 62.23 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f0bb0b3-a4df-42b4-a5d1-952c303af9bb")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led1_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 213.36 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e8e8270-9852-45b7-979c-289107c73c67")
-		(property "Reference" "GND_led1_6"
-			(at 215.9 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 215.9 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 213.36 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 213.36 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "888c2926-793e-4a19-a6df-5598098aa1af")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a232da82-2bde-473e-af29-0a22c17459e5")
-		(property "Reference" "V+_transformer1"
-			(at 64.77 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 64.77 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 62.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 62.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4303e1c5-ff8d-4ae8-a5e5-a2c248c9c142")
-		)
-		(instances
-			(project ""
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "V+_transformer1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 175.26 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 133.35 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5a97288-b49d-4a98-9296-38434d9e9aca")
-		(property "Reference" "#PWR016"
-			(at 153.67 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_transformer"
-			(at 153.67 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6ce578c-57a4-440f-8289-9531854b32fa")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 156.21 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a67d6280-2e2d-43bb-b5ab-cc74177bd7e2")
-		(property "Reference" "GND_led1_2"
-			(at 158.75 152.3999 0)
+		(uuid "53be2d6a-69a8-4b34-8c36-ce2857f8cc92")
+		(property "Reference" "V+_arduino1"
+			(at 134.62 97.1549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,8 +4557,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 158.75 154.9399 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 134.62 99.6949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,8 +4566,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 156.21 154.94 0)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 154.94 0)
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,8 +4584,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 156.21 154.94 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 133.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,78 +4594,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1aca1a3b-354f-4f09-b591-5151bcb30de3")
+			(uuid "cc6c8623-34ce-4cf0-8482-c2bc3507df21")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 38.1 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a74bc6eb-7cd3-448a-aa0d-9193e95b1c4a")
-		(property "Reference" "V-_transformer1"
-			(at 38.608 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 40.64 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63938216-247f-4dd0-b921-e45e60778238")
-		)
-		(instances
-			(project ""
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "V-_transformer1")
+					(reference "V+_arduino1")
 					(unit 1)
 				)
 			)
@@ -4942,16 +4607,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 62.23 45.72 0)
+		(at 71.12 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a864012a-abc7-4e04-afce-585d47dda189")
+		(uuid "559cc0a8-b6d3-4674-80f5-91bef368ef3d")
 		(property "Reference" "#PWR03"
-			(at 62.23 49.53 0)
+			(at 71.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4625,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 62.23 40.64 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 45.72 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 45.72 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 45.72 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4660,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ecb9b768-c5b0-4271-a8ad-2bd19e016d7a")
+			(uuid "5819e6db-18e8-4f65-9869-4c1c9140639e")
 		)
 		(instances
 			(project "receiver_battery"
@@ -5007,16 +4672,289 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLZ44N")
-		(at 64.77 50.8 180)
+		(lib_id "Device:R")
+		(at 40.64 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9709791-a4aa-4cbe-8eb3-ecf7f119de87")
+		(fields_autoplaced yes)
+		(uuid "5b7d831d-6e64-41b7-a9f7-86b487f3f13e")
+		(property "Reference" "PullDown1_2"
+			(at 43.18 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 38.862 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0bc9f51-76e2-43c6-b48b-f8e1d45e3412")
+		)
+		(pin "2"
+			(uuid "d7d1bfc3-4a5e-4288-911e-1f47e6aebdea")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cd7054a-b86f-4e89-9684-393ed6ee742b")
+		(property "Reference" "PullDown2_1"
+			(at 40.64 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.64 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 36.322 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "017fd56e-d73a-494d-8555-b74ab5b71f9d")
+		)
+		(pin "2"
+			(uuid "79664891-1c02-4d61-9a42-d9f96e76c15f")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown2_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d5eb073-55ed-48bb-b6e5-0b86cb3a8a67")
+		(property "Reference" "#PWR028"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_transformer"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33250d68-6470-42c5-a733-9bde947229fa")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "698329c8-f9fb-4fdf-ba06-cecbb6e6539a")
+		(property "Reference" "#PWR030"
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_transformer"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c053db9-5614-4072-9eab-4ddcd4a843f4")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 73.66 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6abe2139-2a94-4b9e-b8e9-e4a686a7c8d8")
 		(property "Reference" "NPN1_1"
-			(at 58.42 52.0701 0)
+			(at 67.31 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +4963,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 58.42 49.5301 0)
+			(at 67.31 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +4972,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 59.69 48.895 0)
+			(at 68.58 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +4983,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 59.69 46.99 0)
+			(at 68.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +4993,7 @@
 			)
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 64.77 50.8 0)
+			(at 73.66 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,17 +5001,17 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "306ee17e-02b6-4698-b0ec-05240352ff16")
-		)
 		(pin "1"
-			(uuid "3beca71c-3b48-4e19-8c62-f2ad03e15ea8")
+			(uuid "c9a810c2-6fce-45db-afea-4abdf5919c8b")
 		)
 		(pin "2"
-			(uuid "0b5dbb46-2152-4867-8106-9830b5aa5d98")
+			(uuid "e6657d8a-ec04-4f72-8d09-5dedf9679079")
+		)
+		(pin "3"
+			(uuid "c6192f03-d635-47d1-a39c-1038fde843d9")
 		)
 		(instances
-			(project "receiver_battery"
+			(project ""
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
 					(reference "NPN1_1")
 					(unit 1)
@@ -5082,17 +5020,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 213.36 157.48 0)
+		(lib_id "power:VCC")
+		(at 26.67 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6fc4847-3a22-4b7b-9399-15362cbb4591")
-		(property "Reference" "#PWR017"
-			(at 213.36 163.83 0)
+		(uuid "6e3596bb-db13-461e-ad0c-5dfbedf132e6")
+		(property "Reference" "#PWR04"
+			(at 26.67 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,8 +5038,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_transformer"
-			(at 213.36 162.56 0)
+		(property "Value" "VCC"
+			(at 26.67 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 157.48 0)
+			(at 26.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 157.48 0)
+			(at 26.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,8 +5064,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 157.48 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 26.67 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,94 +5074,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c1c32d6-803d-4a16-8f96-ec9a6a4c42d7")
+			(uuid "7e2cfe60-a118-43eb-b43d-1e78d5278ed6")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 142.24 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 26.67 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b85d0cda-7dcd-43c0-97d6-9519942b65af")
-		(property "Reference" "#PWR021"
-			(at 261.62 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_transformer"
-			(at 261.62 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f18cbc82-fd22-4c95-8b1b-220f64e87da0")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 91.44 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba5adeee-7318-4cf1-949d-a4cdc7f2940b")
-		(property "Reference" "Vout_led2_2"
-			(at 90.932 129.54 0)
+		(uuid "6f82b834-6c6c-4375-b2e2-b8cf027a7dca")
+		(property "Reference" "V+led2_4"
+			(at 27.94 175.8949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,8 +5104,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 88.9 127.0001 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 27.94 178.4349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,8 +5113,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 91.44 127 0)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 26.67 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 127 0)
+			(at 26.67 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,8 +5131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 91.44 127 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 26.67 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,12 +5141,1787 @@
 			)
 		)
 		(pin "1"
-			(uuid "67e4ba02-710a-475c-83fe-18597916669c")
+			(uuid "71b94790-1132-46e5-a3cb-4668b5b2b7fb")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led2_2")
+					(reference "V+led2_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 25.4 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff1b88b-eb7f-4d6b-abdd-60affd96e411")
+		(property "Reference" "#PWR01"
+			(at 25.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 25.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce5527a9-abca-4a14-bb6f-11989eb94cd2")
+		)
+		(instances
+			(project ""
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 26.67 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758893c2-55fc-4a3a-ad07-60863da22ce7")
+		(property "Reference" "V-led2_1"
+			(at 27.94 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 27.94 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4767dbf9-aa2a-452d-a741-3f3a2c7ddf4f")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-led2_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "767ad052-f7cb-4bd2-ba4d-b93579449a80")
+		(property "Reference" "PullDown2_2"
+			(at 82.55 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 82.55 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 78.232 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "078689e8-d049-4289-ac83-a722c216b713")
+		)
+		(pin "2"
+			(uuid "2cef7a7e-b859-4439-8455-b3d46ff459f2")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown2_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 110.49 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786cd531-98eb-406a-9d61-3a758d222299")
+		(property "Reference" "V-led2_3"
+			(at 111.76 57.7849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 111.76 60.3249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d58e52db-e4c3-4971-97a7-ecdd8197c35e")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-led2_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 207.01 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd29724-2db0-45e6-a2e4-edf33a3e6484")
+		(property "Reference" "PullDown2_5"
+			(at 209.55 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 209.55 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 205.232 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "104ea4a0-24a1-47c0-9f3f-af8012ed5c36")
+		)
+		(pin "2"
+			(uuid "3252af73-ab64-4cd3-89e8-70b30baad3c8")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown2_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 71.12 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e81900f-352a-4de3-b473-d42a8d230caf")
+		(property "Reference" "#PWR010"
+			(at 71.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 71.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28e2cd58-0d44-4dce-941b-cbcfddc09d0c")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 25.4 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f37f0ea-c537-4c21-9a16-1217b4517211")
+		(property "Reference" "V+led1_1"
+			(at 26.67 120.0149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 26.67 122.5549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41190202-6ef4-4abf-9ab6-374986074135")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+led1_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 49.53 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "801b2850-c650-4972-a20e-a0ab937102d8")
+		(property "Reference" "V+led1_2"
+			(at 50.8 120.0149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 50.8 122.5549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2464c6c7-4b8a-4606-872e-84c16e733872")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+led1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 113.03 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80de29a6-ad44-4854-8f27-cb5888374acc")
+		(property "Reference" "NPN2_3"
+			(at 106.68 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 106.68 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 107.95 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 107.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0818c56c-0769-4e8c-8afc-85d57ac5cfb0")
+		)
+		(pin "2"
+			(uuid "6e81d75a-11b6-447e-8d22-d037e304c7ce")
+		)
+		(pin "3"
+			(uuid "6cad8ca1-18e5-4863-9de7-be700b53e392")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "NPN2_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81cf06f3-1b07-4040-8a82-9e14f5e355ff")
+		(property "Reference" "PullDown1_5"
+			(at 167.64 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 167.64 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 163.322 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67a9eaaf-8823-4758-918a-1ee3f6d97b80")
+		)
+		(pin "2"
+			(uuid "0cd2f272-f418-4155-8366-560753a7cd05")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown1_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d510be7-0395-4712-84d0-2f9003e61f63")
+		(property "Reference" "PullDown1_4"
+			(at 127 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 127 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 122.682 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c7d7ae8-483f-4f9b-a642-c788033406a6")
+		)
+		(pin "2"
+			(uuid "4ea22fa8-a28c-40a1-b079-f02976318985")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown1_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 26.67 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "932a32f1-dba9-4476-88f4-57593094aed6")
+		(property "Reference" "#PWR07"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 26.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 26.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac54370-dd74-41a3-afc4-2666275b854f")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94ed7c87-cf99-4bf2-add0-a199e132311e")
+		(property "Reference" "#PWR025"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_transformer"
+			(at 113.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2facdecc-bd0d-4e3f-978b-fc64b83cbcc1")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 68.58 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "962ec655-d73b-413c-8251-bf2b8768aef3")
+		(property "Reference" "V-led2_2"
+			(at 69.85 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 69.85 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b58ec182-02b9-42de-a847-9f28d1fdbda9")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-led2_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c1117a-2ddc-471b-b3ef-8873939dde9c")
+		(property "Reference" "V+led2_5"
+			(at 54.61 175.8949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 54.61 178.4349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81b99694-27c0-4318-8683-5c9211f81712")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+led2_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c98790a-d485-4be3-b0ac-1cf6bec07f3e")
+		(property "Reference" "R1"
+			(at 271.78 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 271.78 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 267.462 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eca55a23-65b3-41ac-9d6f-37f402c36af6")
+		)
+		(pin "1"
+			(uuid "25778f59-aafc-49aa-b0cb-2da474fcd2a1")
+		)
+		(instances
+			(project ""
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 245.11 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9db9ee26-a726-4515-a9a6-cfd1074479d3")
+		(property "Reference" "V-_transformer1"
+			(at 246.38 22.2249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 246.38 24.7649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 245.11 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 245.11 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a7dcd11-7406-4b2e-8ffe-22b9b10d773a")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-_transformer1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 49.53 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f59de43-cae4-4438-9e6b-c0c4b0745874")
+		(property "Reference" "#PWR02"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba856551-a054-4978-9864-b979c6e72e7f")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 198.12 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a15df6af-413e-4f69-a99e-44dcc7c93d6d")
+		(property "Reference" "NPN2_5"
+			(at 191.77 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 191.77 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 193.04 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 193.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 198.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e509a31-1b89-4096-a37e-fdba60cc6de8")
+		)
+		(pin "2"
+			(uuid "89ed7b01-4eec-42fa-8438-b8fcab96d98d")
+		)
+		(pin "3"
+			(uuid "a25fcd7e-06d2-4ddb-88b0-83aec7c464d2")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "NPN2_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 71.12 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6b8af92-999c-47d5-8b73-05b968309cef")
+		(property "Reference" "NPN2_2"
+			(at 64.77 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 64.77 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 66.04 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2bb4453-eeab-4552-ab06-29c0d05b190e")
+		)
+		(pin "2"
+			(uuid "43802fd9-8b54-461c-8516-67c259b04481")
+		)
+		(pin "3"
+			(uuid "e7cd95d0-4a00-435a-9f7a-049d6a742cd3")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "NPN2_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aabe6250-428a-43ce-912b-b9bcd987e74b")
+		(property "Reference" "#PWR023"
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_transformer"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd32be30-f0c6-4376-9a88-4f59c5152791")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 25.4 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb4e0d7-c98c-4900-82bb-1e896375eb22")
+		(property "Reference" "V+led2_1"
+			(at 26.67 158.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 26.67 160.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 25.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 25.4 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199ae1ed-50cd-434e-be18-27309e21d14c")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+led2_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad54983e-b485-4336-99c4-c015071e59f8")
+		(property "Reference" "#PWR026"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_transformer"
+			(at 153.67 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f58d7402-a25d-453c-b7f4-24350b731134")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9369fae-6c2d-40f5-af96-be94cfe67d56")
+		(property "Reference" "#PWR027"
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_transformer"
+			(at 26.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf770a0-9ca9-48ef-a7b6-35c46932f2a4")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 198.12 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb12340-3c6d-4dfc-ad20-051379481d0d")
+		(property "Reference" "V-led1_3"
+			(at 199.39 19.6849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 199.39 22.2249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 198.12 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 198.12 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24930c41-66bb-44dd-a72f-1f32aeddd3d9")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-led1_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 49.53 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48794f9-6cb5-4ca2-912a-0c409d31be00")
+		(property "Reference" "V+led2_2"
+			(at 50.8 158.1149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 50.8 160.6549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba8e9445-8c2b-4925-89a7-1866008a07c4")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+led2_2")
 					(unit 1)
 				)
 			)
@@ -5281,7 +6929,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_Nano_v3.x")
-		(at 166.37 93.98 0)
+		(at 140.97 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5290,7 +6938,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7275e81-6519-4587-a05f-6be0956e20c3")
 		(property "Reference" "A1"
-			(at 171.0533 119.38 0)
+			(at 145.6533 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +6947,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_v3.x"
-			(at 171.0533 121.92 0)
+			(at 145.6533 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +6956,7 @@
 			)
 		)
 		(property "Footprint" "Module:Arduino_Nano"
-			(at 166.37 93.98 0)
+			(at 140.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +6966,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
-			(at 166.37 93.98 0)
+			(at 140.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +6975,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano v3.x"
-			(at 166.37 93.98 0)
+			(at 140.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,16 +7083,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 168.91 140.97 180)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 53.34 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5cd78f7-57b1-42e4-a9ae-29de961e9fcd")
-		(property "Reference" "V-_arduino1"
-			(at 168.402 143.51 0)
+		(fields_autoplaced yes)
+		(uuid "c99de4e2-d8ea-4f54-aaa8-b0822a2b92ef")
+		(property "Reference" "V+led1_5"
+			(at 54.61 137.7949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,8 +7101,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 166.37 140.9701 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 54.61 140.3349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,8 +7110,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 168.91 140.97 0)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +7120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 140.97 0)
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,8 +7128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 168.91 140.97 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 53.34 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,12 +7138,146 @@
 			)
 		)
 		(pin "1"
-			(uuid "6be75bc0-3dff-4202-b455-15d437e6405f")
+			(uuid "42f0c509-c55d-4015-b270-3f0c78d3f1c2")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "V-_arduino1")
+					(reference "V+led1_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 26.67 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda3dee2-a3c9-4b5d-b119-d953b2444eb7")
+		(property "Reference" "V+led1_4"
+			(at 27.94 137.7949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 27.94 140.3349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 26.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 26.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "603034b1-696b-4f89-a44f-f46f78cad41f")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V+led1_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 71.12 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7bd7ae7-0ef2-4082-a681-50eeb347bae3")
+		(property "Reference" "V-led1_1"
+			(at 72.39 18.4149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 72.39 20.9549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 71.12 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 71.12 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a12349a5-8f30-484a-a1b7-99d2f900a63a")
+		)
+		(instances
+			(project ""
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "V-led1_1")
 					(unit 1)
 				)
 			)
@@ -5502,16 +7285,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 175.26 0)
+		(at 195.58 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da744537-796e-48f5-98dd-a12edc4a0d8e")
-		(property "Reference" "#PWR015"
-			(at 128.27 181.61 0)
+		(uuid "d83a4234-b889-44c6-a008-a38b12a0ef41")
+		(property "Reference" "#PWR031"
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +7303,7 @@
 			)
 		)
 		(property "Value" "GND_transformer"
-			(at 128.27 180.34 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +7311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 175.26 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +7320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 175.26 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +7329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 175.26 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,12 +7338,147 @@
 			)
 		)
 		(pin "1"
-			(uuid "57619a3e-c393-4f94-98ff-2c5bac3fa286")
+			(uuid "6aafd395-5b75-49a0-8cc1-e062ab83f8d7")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR015")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc4a9df0-597c-4308-98dc-6cf99bb4c978")
+		(property "Reference" "#PWR022"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_transformer"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f2e539-660a-47a2-ba86-e4d03696c487")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e00183ed-d398-4e0e-b76e-eaaca228a737")
+		(property "Reference" "PullDown1_1"
+			(at 85.09 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 85.09 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 80.772 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81772d73-11f4-4afe-b879-2a3777be1cd9")
+		)
+		(pin "2"
+			(uuid "55529a9d-9eef-495d-904e-c0d113322f81")
+		)
+		(instances
+			(project ""
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown1_1")
 					(unit 1)
 				)
 			)
@@ -5568,15 +7486,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
-		(at 93.98 50.8 180)
+		(at 153.67 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de648842-a63e-4af2-bee1-6c6e631f2503")
-		(property "Reference" "NPN1_2"
-			(at 87.63 52.0701 0)
+		(uuid "e038283d-aca4-4799-9bd7-b20fc5201a1b")
+		(property "Reference" "NPN2_4"
+			(at 147.32 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +7504,7 @@
 			)
 		)
 		(property "Value" "IRLZ44N"
-			(at 87.63 49.5301 0)
+			(at 147.32 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +7513,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 88.9 48.895 0)
+			(at 148.59 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +7524,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
-			(at 88.9 46.99 0)
+			(at 148.59 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +7534,7 @@
 			)
 		)
 		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 93.98 50.8 0)
+			(at 153.67 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,36 +7542,36 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "ae2f3237-5f47-4b76-886e-67b5cf55ffde")
-		)
 		(pin "1"
-			(uuid "62c29ac1-d447-402b-b6ae-fac7b98f43f4")
+			(uuid "bcfad346-0287-4511-adfe-707ddf56efca")
 		)
 		(pin "2"
-			(uuid "b2f626ee-020a-4ff4-a047-7f163a5b0cd0")
+			(uuid "1958e614-0378-4c04-85ca-4826fe139858")
+		)
+		(pin "3"
+			(uuid "f4ba5170-3189-44d8-992e-f75b7667689a")
 		)
 		(instances
-			(project ""
+			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "NPN1_2")
+					(reference "NPN2_4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 215.9 139.7 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 71.12 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3bbc6aa-72b5-41ee-be58-c499830f466f")
-		(property "Reference" "GND_led1_8"
-			(at 218.44 137.1599 0)
+		(uuid "e04d0935-1649-4909-bc37-8b713fb123a1")
+		(property "Reference" "V+led1_3"
+			(at 72.39 120.0149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,8 +7579,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 218.44 139.6999 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 72.39 122.5549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,8 +7588,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 215.9 139.7 0)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 71.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +7598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 139.7 0)
+			(at 71.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,8 +7606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 215.9 139.7 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 71.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,12 +7616,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "03d957e3-b49a-4614-9ea5-798cedfe6e83")
+			(uuid "0b57fef7-1fbd-4e1b-82b1-8413230c999c")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_8")
+					(reference "V+led1_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e061fb7e-4a58-4760-8e9c-6a26a06f408c")
+		(property "Reference" "PullDown1_3"
+			(at 212.09 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 212.09 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 207.772 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3d6294a-eb82-46df-a44a-b25395d5a713")
+		)
+		(pin "2"
+			(uuid "25b53b6f-07f1-4cec-8636-c7d96f70a2fa")
+		)
+		(instances
+			(project "receiver_battery"
+				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
+					(reference "PullDown1_3")
 					(unit 1)
 				)
 			)
@@ -5710,16 +7699,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 142.24 0)
+		(at 110.49 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee3a1425-1f7f-4062-9991-f984a8bdf1d3")
-		(property "Reference" "#PWR020"
-			(at 240.03 148.59 0)
+		(uuid "e6cb0165-65a7-4e69-a354-f86ed575ec31")
+		(property "Reference" "#PWR029"
+			(at 110.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +7717,7 @@
 			)
 		)
 		(property "Value" "GND_transformer"
-			(at 240.03 147.32 0)
+			(at 110.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +7725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 142.24 0)
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +7734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 142.24 0)
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +7743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 142.24 0)
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,28 +7752,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0ce5de8-9b35-4527-ae85-feb82f71a051")
+			(uuid "17b78c85-f736-46b9-a38f-39604f882bbb")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR020")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 62.23 161.29 180)
+		(lib_id "Device:R")
+		(at 162.56 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ee85ac68-6cbf-4288-b01a-bff8d994e954")
-		(property "Reference" "Vout_led2_4"
-			(at 61.722 163.83 0)
+		(fields_autoplaced yes)
+		(uuid "e86bafa4-21d7-4c92-b3c4-c2e601daf561")
+		(property "Reference" "PullDown2_4"
+			(at 165.1 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,8 +7782,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 59.69 161.2901 0)
+		(property "Value" "10k"
+			(at 165.1 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,8 +7791,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 62.23 161.29 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 160.782 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +7801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 161.29 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,8 +7809,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 62.23 161.29 0)
+		(property "Description" "Resistor"
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,28 +7819,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1714d5e-4367-460a-8f1f-e9b78ebf2661")
+			(uuid "4c2b733e-0511-42da-b8de-dd5a4416e66f")
+		)
+		(pin "2"
+			(uuid "1a3ef326-802e-461a-a64a-404c967ac18d")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "Vout_led2_4")
+					(reference "PullDown2_4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 158.75 45.72 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 153.67 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f0092e69-9536-4d46-9488-06084a84d788")
-		(property "Reference" "V+_arduino1"
-			(at 159.258 43.18 0)
+		(fields_autoplaced yes)
+		(uuid "fece577c-30e1-4ddd-92c7-3d312dbac594")
+		(property "Reference" "V-led1_5"
+			(at 154.94 19.6849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,8 +7852,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 161.29 45.7199 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 154.94 22.2249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,8 +7861,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 158.75 45.72 0)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 153.67 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +7871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 45.72 0)
+			(at 153.67 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,8 +7879,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 158.75 45.72 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 153.67 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,276 +7889,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e9f3c90-0755-4297-9d32-dd4f1136fddb")
+			(uuid "207edb91-8cba-45d0-8991-c57b879a748a")
 		)
 		(instances
 			(project "receiver_battery"
 				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "V+_arduino1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 91.44 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f17babe5-38fc-4550-8bab-5026e50345dc")
-		(property "Reference" "#PWR01"
-			(at 91.44 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 91.44 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c772e92-3964-4423-9f70-362d899ec2eb")
-		)
-		(instances
-			(project ""
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 62.23 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1dda180-5e00-4124-bf5c-99b6296159f8")
-		(property "Reference" "#PWR06"
-			(at 62.23 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 62.23 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "710f97f7-b0fd-40f9-9a11-dcf4a8dadf5f")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 184.15 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2e2266b-b1b3-467d-b357-a1ac7568d03d")
-		(property "Reference" "GND_led1_3"
-			(at 186.69 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 186.69 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
-			(at 184.15 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 184.15 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c02cdfc-847f-4fbc-8d19-914cac5bb4b5")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "GND_led1_3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 120.65 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feabba7a-53ad-46d9-9814-fa0beccdd689")
-		(property "Reference" "#PWR04"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 120.65 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2603d930-9645-472b-9b03-b6a37411fa2f")
-		)
-		(instances
-			(project "receiver_battery"
-				(path "/6c1d3763-2383-4474-8c26-e0b12ac80083"
-					(reference "#PWR04")
+					(reference "V-led1_5")
 					(unit 1)
 				)
 			)
