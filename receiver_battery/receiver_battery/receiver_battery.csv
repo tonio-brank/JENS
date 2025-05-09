@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"NPN1_5,NPN2_3,NPN1_2,NPN1_1,NPN1_3,NPN2_4,NPN1_4,NPN2_1,NPN2_2,NPN2_5";"TO-220-3_Vertical";10;"IRLZ44N";;;
+2;"V-led1_4,V+_transformer1,V-led2_3,V-led1_3,V+led2_3,V+led2_1,V-_transformer1,V+led1_2,V-led2_1,V+led1_3,V+led1_5,V+_arduino1,V+led2_5,V-led2_5,V+led2_4,GND_arduino1,V-led1_5,V+led1_1,V+led1_4,V+led2_2,V-led2_4,V-led1_1,V-led1_2,V-led2_2";"SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm";24;"Conn_01x01_Pin";;;
+3;"PullDown2_3,PullDown1_3,PullDown2_1,PullDown2_5,PullDown1_1,PullDown1_5,PullDown1_4,PullDown1_2,PullDown2_4,PullDown2_2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";10;"10k";;;
+4;"R2,R3,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";3;"R";;;
+5;"A1";"Arduino_Nano";1;"Arduino_Nano_v3.x";;;
+6;"U1";"nRF24L01_Breakout";1;"NRF24L01_Breakout";;;
